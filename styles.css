@@ -1,0 +1,12 @@
+#grid-container {
+
+}
+
+.grid-div{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(65, 156, 130);
+  border-left: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
+  float: left;
+}
