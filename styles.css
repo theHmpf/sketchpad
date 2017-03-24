@@ -1,12 +1,30 @@
-#grid-container {
+body {
+}
 
+#grid-container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .grid-div{
-  height: 20px;
-  width: 20px;
+  height: 5px;
+  width: 5px;
   background-color: rgb(65, 156, 130);
-  border-left: 1px solid rgb(255, 255, 255);
-  border-top: 1px solid rgb(255, 255, 255);
+  /*border-left: 1px solid rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);*/
   float: left;
+}
+
+#reset-button {
+  background-color: rgb(18, 112, 18);
+  border: none;
+  color: white;
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+#reset-button:hover {
+  cursor: pointer;
+  background-color: rgb(138, 203, 151);
+  color: rgb(93, 93, 93);
 }
